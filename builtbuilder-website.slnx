@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="builtbuilder-website.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
