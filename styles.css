@@ -350,8 +350,19 @@ h2 {
 .feature-icon {
     font-size: 2.5rem;
     margin-bottom: 1.25rem;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(34, 211, 238, 0.2) 100%);
+    border-radius: 16px;
+    color: var(--accent);
 }
+
+    .feature-icon i {
+        font-size: 1.75rem;
+    }
 
 .feature-card h3 {
     margin-bottom: 0.75rem;
